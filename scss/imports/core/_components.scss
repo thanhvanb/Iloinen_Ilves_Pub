@@ -1,0 +1,35 @@
+// css components
+.textbox {
+    max-width: 540px;
+    margin-bottom: 50px;
+    color: $white-cl;
+    
+    .title {
+        
+        text-transform: uppercase;
+        font-family: pb;
+        font-size: 40px;
+        
+        //align-items: center;
+        //justify-content: center;
+        
+    }
+    .des {
+        font-family: pr;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 15px auto;
+        //text-align: center;
+    }
+    
+
+    &.--black {
+        max-width: 100%;
+        color: $black-cl;
+        letter-spacing: 0px;
+        text-align: center;
+        .des {
+            text-align: left;
+        }
+    }
+}
